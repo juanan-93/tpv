@@ -564,3 +564,378 @@ table{
     width: 20%;
     margin-left: 35%;
 }
+
+/* ==========cuestion panel============= */
+.display{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color:#0006;
+    top: 0%;
+    left: 0%;
+}
+
+.cuestion-panel{
+    background-color:#FFFFFF;
+    width: 35%;
+    height: 24%;
+    border: solid 0.1rem #000000;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+.cuestion-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 3%;
+}
+
+.cuestion-title h2{
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.cuestion-text{
+    padding: 6% 5%;
+    border-bottom: #cecfcf solid 0.1rem;;
+    border-top: #cecfcf solid 0.1rem;;; 
+}
+
+.cuestion-text span{
+    font-size: 0.9rem;
+
+}
+
+.cuestion-close svg{
+    width: 1.5rem;
+    color: #949494;
+}
+
+.cuestion-text{
+    text-align: center;
+}
+
+.cuestion-buttons{
+    display: flex;
+    justify-content:end;
+    margin-right: 5%;
+    padding-top: 5%;
+}
+
+.close-button button{
+    border: none;
+    background-color: #F8F9FA;
+    color: #4D4D4E;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    padding: 11% 8%;
+}
+
+.delete-button {
+    margin-left: 3%;
+}
+
+.delete-button button{
+    border: none;
+    background-color: #198754;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    padding: 8% 8%;
+}
+
+.display.active{
+    display: block;
+}
+
+/* ============metode pago=================== */
+
+.display-payment{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color:#0006;
+    top: 0%;
+    left: 0%;
+}
+
+.payment{
+    background-color:#FFFFFF;
+    width: 35%;
+    height: 28%;
+    border: solid 0.1rem #000000;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+.display-payment-button{
+    text-align: center;
+    border-bottom: #949494 solid 0.1rem;
+    border-top: #949494 solid 0.1rem;
+}
+
+.button-payment{
+    padding: 2% 0%;
+}
+
+.display-payment-button button{
+    border: none;
+    background-color: #0D6EFD;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    width: 45%;
+    padding: 1.5%;
+    font-size: 1rem;
+}
+
+.close-button-payment{
+display: flex;
+justify-content: end;
+}
+
+.close-button-payment button{
+margin-right: 5%;
+margin-top: 3%;
+color: #6C6C6D;
+border: none;
+font-size: 1.2rem;
+}
+
+
+.display-payment.active{
+    display: block;
+}
+
+
+/* ==============ADMIN======================== */
+
+.header-admin{
+    display: flex;   
+}
+
+.hamburger svg{
+    width: 1.5rem;
+    text-align: center;
+}
+
+.hamburger{
+    margin-right: 2%;
+}
+
+.hamburger button{
+    background-color: #F8F9FA;
+    border:solid 0.1rem #E5E8EC;
+    border-radius: .2rem;
+}
+
+.title-admin{
+    width: 100%;
+    background-color: #DADEE0;
+    text-align: center;
+}
+
+
+.add-iva{
+    display: flex;
+    justify-content:end;
+}
+
+.add-iva button{
+    background-color: #0D6EFD;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 1.3rem;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    padding: 0.7% 1%;
+}
+
+tr{
+    text-align: center;
+    border: #949494 solid 0.1px;
+}
+
+th{
+    background-color: #C9E7FF ;
+    font-size: 1.5rem;
+    padding: 1% 0%;
+    border-bottom: #000000 solid 0.1rem;
+}
+
+td{
+    border: #949494 solid 0.1px;
+}
+
+.buttons-admin{
+    display:flex;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+.edit-button{
+    cursor: pointer;
+}
+
+
+.trash-button{
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+
+.edit-button svg{
+    width: 1.5rem;
+    background-color: #198754;
+    color: #ffffff;
+    border-radius: 0.3rem;
+    padding: 20%;
+}
+
+.trash-button svg{
+    width: 1.5rem;
+    background-color:#DC3545;
+    color: #ffffff;
+    border-radius: 0.3rem;
+    padding: 20%;
+}
+
+.buttons-pages{
+    display: flex;
+    width: 100%; 
+    
+    margin-left: 48%;
+}
+
+.page-icon button{
+    color: #B8BCFE;
+    border: none;
+    font-size: 1.3rem;
+    border: solid 0.1px #949494;
+    cursor: pointer;
+}
+
+.page button{
+    color: #B8BCFE;
+    border: none;
+    font-size: 1.3rem;
+    border: solid 0.1px #949494;
+    cursor: pointer;
+}
+
+.display-iva{
+    display: none;
+    position: fixed;
+    background-color: #0004;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%; 
+
+}
+
+.display-iva.active{
+    display: block;
+}
+
+
+.iva{
+    width: 30%;
+    background-color: #ffffff;
+    margin-left: 35%;
+    margin-top: 20%;
+    border-radius: 0.3rem;
+}
+
+.iva-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 3%;
+    border-bottom: #dbced8 solid 0.1rem;
+}
+
+.iva-title{
+}
+
+.iva-title h2{
+    font-size: 1.2rem;
+    color: #626468;
+}
+
+.close-iva svg{
+    width: 1.5rem;
+    color: #8F8F8F;
+}
+
+.iva-element{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.element-title{
+    margin-bottom: 2%;
+}
+
+.element-iva input{
+    width: 95%;
+    padding: 1.5% 0%;
+    border: #EEF0F2 solid 0.1rem;
+    border-radius: 0.2rem;
+}
+
+.element-iva select{
+    width: 95%;
+    padding: 1% 0%;
+    border: #EEF0F2 solid 0.1rem;
+    border-radius: 0.2rem;
+}
+
+.buttons-iva{
+    display: flex;
+    justify-content:end;
+    margin:3% 5%;
+    padding-bottom: 5%;
+}
+
+.button-iva-close button{
+    background-color: #636D76;
+    border: none;
+    border-radius: 0.2rem;
+    color: #ffffff;
+    padding: 14%;
+
+}
+
+
+.button-iva-confirmation{
+    margin-left: 8%;
+    margin-right: 3%;
+
+}
+
+.button-iva-confirmation button{
+    background-color: #0D6DFB;
+    color:#ffffff;
+    border: none;
+    border-radius: 0.2rem;
+    padding:9%;
+
+}
+
+.text-iva{
+    padding: 0% 5%;
+    text-align: center;
+    border-bottom: #dbced8 solid 0.1rem;
+}
+
+.text-iva span{
+    font-size: 0.8rem;
+    color: #626468;
+    
+}
